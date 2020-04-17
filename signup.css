@@ -1,0 +1,116 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)),url( 'img/signup.jpg' ) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    position: absolute;
+    
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    width: 340px;
+    text-align: center;
+}
+.login-form{
+    position: relative;
+    box-sizing:border-box ;
+    padding: 60px 30px;
+    transition: 0.5s;
+}
+.login-form:hover{
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 0 20px;
+    border-radius: 30px;
+}
+h1{
+    margin:0 0 20px;
+    font-family: 'Srisakdi';
+    color: #fff;
+    font-size: 60px;
+}  
+.header{
+    margin:0 0 20px;
+    display: block;
+    position: absolute;               
+   top: 50%;    
+   left: 10%;                     
+   transform: translate(0, -50%);
+    font-family: 'raleway';
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 100px;
+
+}
+.login-form input{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-bottom:20px ;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+    border:none;
+    background: rgba(255,255,255,0.1);
+  
+}
+.login-form input::placeholder{
+    color: #fff;
+ 
+}
+
+
+.login-form input[type="submit"]{
+
+    background: transparent;
+    width: 100px;
+    margin-left: -10%;
+    margin-right: 50px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.login-form input[type="button"]{
+    background: none;
+    width: 100px;
+    margin-right: -25px;
+    
+    margin-left: 15px;
+   
+    display: inline-block;
+    border: 1px solid;
+    outline: 10px;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid rgb(212, 19, 19);/* this is for button border*/
+}
+
+.login-form input[type="submit"]:hover{
+    background: #E13E3E;
+}
+.login-form a{
+    text-decoration: none;
+      color:#fff;
+     font-size: 12px;
+      padding-left: 140px;
+    
+}
